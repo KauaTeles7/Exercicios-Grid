@@ -1,0 +1,146 @@
+
+body {
+    font-family:cursive;
+    padding: 10px;
+    background-color: rgb(33, 158, 207);
+}
+
+
+h1 {
+    text-align: center;
+    color: aliceblue;
+}
+
+
+.exercicio {
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 15px;
+    color: aliceblue;
+}
+
+
+.flex-container {
+    display: flex;
+}
+
+.flex-box {
+    background: orange;
+    padding: 10px;
+    margin: 5px;
+    flex: 1;
+    text-align: center;
+}
+
+
+header {
+    background: blue;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    text-align: center;
+}
+
+
+.texto-grande {
+    font-size: 30px;
+}
+
+
+.menu {
+    display: flex;
+    background: black;
+}
+
+.menu a {
+    color: white;
+    padding: 8px;
+    text-decoration: none;
+}
+
+
+.largura-div {
+    width: 50%;
+    background: purple;
+    color: white;
+    padding: 10px;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 5px;
+}
+
+.card {
+    background: lightblue;
+    padding: 10px;
+    text-align: center;
+}
+ 
+.img-responsiva {
+    width: 150px;
+}
+
+.botao {
+    padding: 15px 30px;
+    background: red;
+    color: white;
+    border: none;
+}
+
+
+.flex-layout {
+    display: flex;
+}
+
+.flex-item {
+    background: rgb(0, 0, 0);
+    color: white;
+    padding: 10px;
+    flex: 1;
+    margin: 5px;
+}
+
+
+@media (max-width: 600px) {
+
+    .flex-container {
+        flex-direction: column;
+    }
+
+    header {
+        background: rgb(128, 58, 0);
+    }
+
+    .texto-grande {
+        font-size: 16px;
+    }
+
+    .largura-div {
+        width: 100%;
+    }
+
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+
+    .img-responsiva {
+        display: none;
+    }
+
+    .botao {
+        padding: 5px 10px;
+    }
+
+    .flex-layout {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .menu {
+        flex-direction: column;
+    }
+}
