@@ -1,12 +1,14 @@
 
 body {
-    font-family: Arial;
+    font-family:cursive;
     padding: 10px;
+    background-color: rgb(33, 158, 207);
 }
 
 
 h1 {
     text-align: center;
+    color: aliceblue;
 }
 
 
@@ -14,6 +16,7 @@ h1 {
     border: 1px solid black;
     padding: 10px;
     margin-bottom: 15px;
+    color: aliceblue;
 }
 
 
@@ -32,7 +35,7 @@ h1 {
 
 header {
     background: blue;
-    color: white;
+    color: rgb(0, 0, 0);
     padding: 10px;
     text-align: center;
 }
@@ -92,7 +95,7 @@ header {
 }
 
 .flex-item {
-    background: green;
+    background: rgb(0, 0, 0);
     color: white;
     padding: 10px;
     flex: 1;
@@ -107,7 +110,7 @@ header {
     }
 
     header {
-        background: green;
+        background: rgb(128, 58, 0);
     }
 
     .texto-grande {
